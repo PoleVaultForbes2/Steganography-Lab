@@ -30,6 +30,7 @@ Run the encoder:
 
 
 🖥️ Testing
+
 I used a decoder given by my professor, so to test you will have to find a bmp decoder. 
 
 

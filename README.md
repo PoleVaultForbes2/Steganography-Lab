@@ -3,13 +3,10 @@ This project is a simple C program that hides a secret message inside a 32-bit B
 
 📌 Features
 
-Supports 32-bit uncompressed BMP images.
-
-Encodes a null-terminated secret message inside the image's pixel data.
-
-Preserves the original BMP header and metadata.
-
-Simple command-line usage.
+*Supports 32-bit uncompressed BMP images.
+*Encodes a null-terminated secret message inside the image's pixel data.
+*Preserves the original BMP header and metadata.
+*Simple command-line usage.
 
 🛠️ How It Works
 
@@ -19,20 +16,17 @@ The encoder modifies the least significant bit (LSB) of each byte in the image�
 🖥️ Usage
 
 Compile the program:
-
 ~~~~~~~~~~~~~~~~~~~~~~~
 gcc -o bmp_encoder main.c
 ~~~~~~~~~~~~~~~~~~~~~~~~
 Run the encoder:
-
+~~~~~~~~~~~~~~~~~~~~~~~~
 ./bmp_encoder input.bmp output.bmp "Your secret message"
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-input.bmp — Original BMP image (must be 32-bit and uncompressed).
-
-output.bmp — New BMP image with the encoded message.
-
-"Your secret message" — The message to be hidden inside the image.
+*input.bmp — Original BMP image (must be 32-bit and uncompressed).
+*output.bmp — New BMP image with the encoded message.
+*"Your secret message" — The message to be hidden inside the image.
 
 
 📄 License

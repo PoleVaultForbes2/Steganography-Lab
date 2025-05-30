@@ -29,6 +29,10 @@ Run the encoder:
 * "Your secret message" — The message to be hidden inside the image.
 
 
+🖥️ Testing
+I used a decoder given by my professor, so to test you will have to find a bmp decoder. 
+
+
 📄 License
 This project is provided for educational purposes and is licensed under the MIT License.
 
